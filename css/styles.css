@@ -133,9 +133,8 @@ color: #212121;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
-
  }
+
  .hero-h1{
 font-family: 'Roboto'; sans-serif;
 font-weight: 900;
@@ -144,8 +143,8 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-
  }
+
 .hero .button{
   font-family: "roboto", sans-serif;
   font-weight: 700;
@@ -361,6 +360,38 @@ color: #757575;
 .pictures-img{
   display: block;
 }
+
+
+/* Customers */
+
+.customers{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.customers-item{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customers-item:not(:last-child){
+  margin-right: 30px;
+}
+
+.customers-icon-button{
+  
+}
+
 
 /* Footer */
 .footer {
