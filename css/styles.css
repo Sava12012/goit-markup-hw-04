@@ -95,6 +95,13 @@ color: #212121;
 
 .header-group{
   margin-left: auto;
+  display: flex;
+}
+
+.header-contact-svg{
+  fill: currentColor;
+  margin-right: 10px;
+  text-align: center;
 }
 
 .header-group-mail{
@@ -102,6 +109,8 @@ color: #212121;
 }
 
 .header-contact{
+  display: flex;
+  align-items: center;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -112,6 +121,8 @@ color: #757575;
 .header-link:focus{
 color: #2196F3;
 }
+
+
 .header-contact:hover,
 .header-contact:focus{
   color: #2196F3;
@@ -133,6 +144,15 @@ color: #212121;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4));
+  background-image: url(../images/unique-content/img-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
  }
 
  .hero-h1{
@@ -412,6 +432,7 @@ color: #757575;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .customers-item:not(:last-child){
   margin-right: 30px;
