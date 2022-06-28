@@ -186,8 +186,34 @@ color: #FFFFFF;
 
 /* Peculiarities section */
 
+.pecul-item{
+  width: 270px;
+  height: 120px;
+  margin-right: 30px;
+  border-radius: 4px;
+  background-color: #F5F4FA;;
+  justify-content: center;
+  align-items: center;
+}
+
+.pecul-item:nth-child(4n){
+  margin-right: 0px;
+}
+
+.pecul-list{
+  display: flex;
+}
+
+.pecul-item{
+  display: flex;
+  align-items: center;
+}
 .peculiarities{
   padding-top: 94px;
+}
+
+.container-peculiarities-text{
+  padding-top: 30px;
 }
 
 .about-h3{
