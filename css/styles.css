@@ -511,3 +511,22 @@ color: #757575;
   display: block;
   margin-bottom: 9px;
 }
+
+.footer-h2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-left: 156px;
+}
+
+.footer-had{
+  display: flex;
+  align-items: baseline;
+}
+
+
