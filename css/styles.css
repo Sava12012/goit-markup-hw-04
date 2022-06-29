@@ -466,6 +466,12 @@ color: #757575;
   padding-bottom: 60px;
 }
 
+.footer-adress-all{
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
 .footer .logo {
   font-family: "Raleway";
   font-size: 26px;
@@ -526,7 +532,32 @@ margin-left: 156px;
 
 .footer-had{
   display: flex;
-  align-items: baseline;
 }
 
+.footer-soucial{
+  margin-left: 70px;
+}
+.list-icon-f{
+  display: flex;
+  justify-content: center;
+}
+.team-icon-svg-f{
+  fill: #FFFFFF;
+}
+.team-item-icon-f:not(:last-child){
+  margin-right: 10px;
+}
+.team-icon-a-f{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);;
+  border-radius: 50%;
+}
 
+.team-icon-a-f:hover, .team-icon-svg-f:hover,
+.team-icon-a-f:focus, .team-icon-svg-f:focus{
+background-color:#2196F3;
+}
