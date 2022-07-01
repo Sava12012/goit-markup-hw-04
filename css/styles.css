@@ -144,7 +144,7 @@ color: #212121;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradientrgba(47, 48, 58, 0.4);
+  background-image: linear-gradientrgba rgba(47, 48, 58, 0.4),#C4C4C4;
   background-image: url(../images/unique-content/img-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -311,6 +311,9 @@ color: #212121;
   border-radius: 50%;
 }
 .team-icon-svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   fill: #AFB1B8;
 }
 .team-icon-a:hover, .team-icon-svg:hover,
