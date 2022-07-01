@@ -462,6 +462,13 @@ color: #757575;
   margin-right: 30px;
 }
 .customers-icon-button-svg{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   fill: #AFB1B8;
 }
 .customers-icon-button-svg:hover, .customers-item:hover,
