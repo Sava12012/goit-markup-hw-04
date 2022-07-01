@@ -309,22 +309,20 @@ p {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: #afb1b8;
+}
+
+.team-icon-a:hover,
+.team-icon-a:focus {
+  background-color: #2196f3;
+  color: white;
 }
 .team-icon-svg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
-.team-icon-a:hover,
-.team-icon-svg:hover,
-.team-icon-a:focus .team-icon-svg:focus {
-  background-color: #2196f3;
-  fill: white;
-}
-.team-item-icon:not(:last-child) {
-  margin-right: 10px;
-}
+
 .team-h3 {
   font-family: 'Roboto';
   font-weight: 500;
